@@ -1,0 +1,94 @@
+/* pengaturan umum */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  background-color: #f6f5f9;
+  color: #333;
+}
+/* header */
+header {
+  background-color: #ff0090;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+/* navbar */
+nav {
+  background-color: #ff56c1;
+  text-align: center;
+  padding: 15px;
+}
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/* konten utama */
+main {
+  max-width: 1100px;
+  margin: 25px auto;
+  padding: 0 20px;
+}
+/* banner */
+.banner {
+  background-color: #ffa5de;
+  text-align: center;
+  padding: 45px 20px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+.tombol {
+  background-color: #ff0090;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+}
+.tombol:hover {
+  background-color: #fc77cb;
+}
+/* daftar produk */
+.daftar-produk{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.produk {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px #00000012;
+}
+.produk button {
+    background-color: #ff0090;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.produk button:hover{
+    background-color: #ff56c1;
+}
+/* tentang dan kontak */
+.tentang,.kontak {
+    background-color: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+/* footer */
+footer{
+    background-color: #ff0090;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
